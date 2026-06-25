@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Productos | Miscelánea Vega</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header{
+    background: linear-gradient(135deg,#b30000,#ff3b3b);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+nav{
+    background: white;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+nav a{
+    text-decoration: none;
+    color: #b30000;
+    font-weight: bold;
+    margin: 15px;
+}
+
+nav a:hover{
+    color: #ff3b3b;
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+}
+
+.intro{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+}
+
+.card{
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card h3{
+    color: #b30000;
+}
+
+footer{
+    background: #b30000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>🛒 Miscelánea Vega</h1>
+    <p>Productos para toda la familia</p>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="productos.html">Productos</a>
+    <a href="horarios.html">Horarios</a>
+    <a href="ubicacion.html">Ubicación</a>
+    <a href="contacto.html">Contacto</a>
+</nav>
+
+<div class="contenedor">
+
+<div class="intro">
+    <h2>Nuestros Productos</h2>
+    <p>
+        En Miscelánea Vega encontrarás una gran variedad de productos
+        para el hogar, alimentos, bebidas y mucho más.
+    </p>
+</div>
+
+<div class="productos">
+
+    <div class="card">
+        <img src="higiene.jpeg" alt="Higiene">
+        <h3>🧴 Higiene</h3>
+        <p>Shampoo, jabón, pasta dental, papel higiénico y más.</p>
+    </div>
+
+    <div class="card">
+        <img src="refrescos.jpeg" alt="Refrescos">
+        <h3>🥤 Refrescos</h3>
+        <p>Gran variedad de refrescos, jugos, aguas y bebidas frías.</p>
+    </div>
+
+    <div class="card">
+        <img src="abarrotes.jpeg" alt="Abarrotes">
+        <h3>🥫 Abarrotes</h3>
+        <p>Productos básicos como arroz, frijol, aceite, azúcar y más.</p>
+    </div>
+
+    <div class="card">
+        <img src="limpieza.jpeg" alt="Limpieza">
+        <h3>🧼 Limpieza</h3>
+        <p>Cloro, detergentes, jabones y artículos para el hogar.</p>
+    </div>
+
+    <div class="card">
+        <img src="frutas.jpeg" alt="Frutas y Verduras">
+        <h3>🍎 Frutas y Verduras</h3>
+        <p>Frutas y verduras frescas para toda la familia.</p>
+    </div>
+
+    <div class="card">
+        <img src="golosinas.jpeg" alt="Golosinas">
+        <h3>🍭 Golosinas</h3>
+        <p>Dulces, chocolates, paletas, chicles y botanas.</p>
+    </div>
+
+    <div class="card">
+        <img src="lacteos.jpeg" alt="Lácteos">
+        <h3>🧀 Quesos y Lácteos</h3>
+        <p>Leche, queso, yogurt, crema y otros productos lácteos.</p>
+    </div>
+
+    <div class="card">
+        <img src="servicios.jpeg" alt="Recargas y Pagos">
+        <h3>📲 Recargas y Pagos</h3>
+        <p>Recargas telefónicas, pago de servicios y pago con tarjeta.</p>
+    </div>
+
+</div>
+
+</div>
+
+<footer>
+    © 2026 Miscelánea Vega
+</footer>
+
+</body>
+</html>
